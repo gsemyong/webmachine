@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@nats-io/kv": "^3.0.0-26",
+    "@nats-io/nats-core": "^3.0.0-45",
+    "@nats-io/transport-node": "^3.0.0-30"
+  }
+}
